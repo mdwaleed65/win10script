@@ -12,7 +12,7 @@
 #
 #	Addition: One command to rule them all, One command to find it, and One command to Run it! 
 #
-#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ8R4')"
+#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JUVmV')"
 #
 #	Chris Titus Additions:
 #
@@ -22,6 +22,9 @@
 #	- O&O Shutup10 CFG and Run
 #	- Added Install Programs
 #	- Added Debloat Microsoft Store Apps
+# 	My updates:
+#	- Tweaked few services
+#	- Added Adobe reader & Vlc install
 #
 ##########
 # Default preset
