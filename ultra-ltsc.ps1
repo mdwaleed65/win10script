@@ -34,11 +34,11 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallGoogleChrome",
-	"InstallAdobe",
-	"InstallVlc,
+	#"Install7Zip",
+	#"InstallNotepadplusplus",
+	#"InstallGoogleChrome",
+	#"InstallAdobe",
+	#"InstallVlc,
 
 	### Windows Apps
 	"DebloatAll",
@@ -66,10 +66,10 @@ $tweaks = @(
 	#"SetUACLow",                  "SetUACHigh",
 	#"DisableSharingMappedDrives",
 	#"DisableAdminShares",           # "EnableAdminShares",
-	#"DisableSMB1",                # "EnableSMB1",
-	"EnableSMB1",
-	#"DisableSMBServer",           # "EnableSMBServer",
-	"EnableSMBServer",
+	"DisableSMB1",                # "EnableSMB1",
+	#"EnableSMB1",
+	"DisableSMBServer",           # "EnableSMBServer",
+	#"EnableSMBServer",
 	"DisableLLMNR",               # "EnableLLMNR",
 	#"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
 	#"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
@@ -97,8 +97,8 @@ $tweaks = @(
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
 	#"DisableRemoteAssistance",      
-	"EnableRemoteAssistance",
-	#"DisableRemoteDesktop",
+	#"EnableRemoteAssistance",
+	"DisableRemoteDesktop",
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
 	#"DisableStorageSense",        
@@ -139,7 +139,7 @@ $tweaks = @(
 	# "AddENKeyboard",              # "RemoveENKeyboard",
 	"EnableNumlock",             	# "DisableNumlock",
 	#"EnableDarkMode",				# "DisableDarkMode",
-	"Stop-EdgePDF",
+	#"Stop-EdgePDF",
 
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
