@@ -63,7 +63,8 @@ $tweaks = @(
 	"DisableWAPPush",               # "EnableWAPPush",
 
 	### Security Tweaks ###
-	#"SetUACLow",                  "SetUACHigh",
+	#"SetUACLow",                  
+	"SetUACHigh",
 	#"DisableSharingMappedDrives",
 	#"DisableAdminShares",           # "EnableAdminShares",
 	"DisableSMB1",                # "EnableSMB1",
@@ -108,7 +109,7 @@ $tweaks = @(
 	"DisableIndexing",            # "EnableIndexing",
 	#"SetBIOSTimeUTC",             
 	"SetBIOSTimeLocal",
-	"DisableHibernation",		# "EnableHibernation",          # 
+	"DisableHibernation",		# "EnableHibernation", 
 	"EnableSleepButton",		# "DisableSleepButton",         
 	"DisableSleepTimeout",        # "EnableSleepTimeout",
 	# "DisableFastStartup",         # "EnableFastStartup",
@@ -215,8 +216,7 @@ Function InstallTitusProgs {
 	./OOSU10.exe ooshutup10.cfg /quiet
 }
 
-Function 
-{
+Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
 	choco install adobereader -y
 }
