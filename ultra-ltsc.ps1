@@ -38,7 +38,7 @@ $tweaks = @(
 	"InstallNotepadplusplus",
 	"InstallGoogleChrome",
 	"InstallAdobe",
-	"InstallVlc,
+	"InstallVlc",
 
 	### Windows Apps
 	"DebloatAll",
